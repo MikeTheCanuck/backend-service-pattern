@@ -28,7 +28,7 @@ SECRET_KEY = project_config.DJANGO_SECRET
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','hacko-integration-658279555.us-west-2.elb.amazonaws.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','hacko-integration-658279555.us-west-2.elb.amazonaws.com', '192.168.99.100']
 
 # Get the IPV4 address we're working with on AWS
 # The Loadbalancer uses this ip address for healthchecks
