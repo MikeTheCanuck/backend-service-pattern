@@ -2,6 +2,7 @@ sudo: required
 services:
   - docker
 script:
-  - './bin/build-proj -t'
+#  - './bin/build-proj -t'
+  - docker-compose -f travis-docker-compose.yml run homeless-service python manage.py test
 after_success:
 #  - ./bin/push
