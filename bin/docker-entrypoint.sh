@@ -4,4 +4,4 @@ export PATH=$PATH:~/.local/bin
 #python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 #gunicorn homelessAPI.wsgi:application -b :8000
-python manage.py test --no-noinput
+python manage.py test --no-input
